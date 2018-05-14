@@ -1,0 +1,14 @@
+name: charm-mongo-consumer
+summary: Website-example that uses mongodb
+maintainer: student <student@student-VirtualBox>
+description: |
+  Todo 
+tags:
+  - ops
+subordinate: false
+provides:
+  website:
+    interface: http
+requires:
+  mongodb:
+    interface: mongodb

@@ -1,0 +1,2 @@
+includes: ['layer:basic', 'layer:apache-php', 'interface:mongodb']
+repo: "https://github.com/Ciberth/charm-mongo-consumer.git"
